@@ -2,6 +2,20 @@
 
 
 body {
-  background-color: #ddffff;
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: "Dosis", Helvetica, Arial, sans-serif;
+	color: #7b6d6d;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100;Blue+3D+%231 */
+	background: #f7fbfc; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #f7fbfc 0%, #d9edf2 100%, #add9e4 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #f7fbfc 0%,#d9edf2 100%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #f7fbfc 0%,#d9edf2 100%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#wrapper {
+	text-align: center;
+}
+
+#wrapper h1 {
+	margin-top: 20%;
 }
