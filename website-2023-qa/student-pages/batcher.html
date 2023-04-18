@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2023 Design Show - David Batcher</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylessheet/student_page.css">
+    <link rel="stylesheet" href="https://use.typekit.net/slz2kvr.css">
+    <!--Lightbox CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <!-- Import bootstrap icons file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="fixed-top"> <!--Navigation Bar-->
+        <nav>
+            <a href="../index.html"><img src="../Graphics/logo-nav.png" class="img-fluid w-30"></a>
+       
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa-solid fa-bars fa-lg" style="color: #000000;" id="btn"></i>
+                <i class="fa-solid fa-times fa-lg" style="color: #000000;" id="cancel"></i>
+            </label>
+
+            <ul class="nav-group">
+                    <!--Use id #aa # bb #cc as a mark to jump to the specified location-->  
+                <li ><a  class="data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="../index.html#aa" >Home</a></li>
+                <li><a href="../index.html#bb" >Show Info</a></li>
+                <li><a href="../index.html#cc">Designers</a></li>
+                <li><a href="#"><i class="social-icon fa-brands fa-instagram fa-lg" style="color: #000000;"></i></a></li>
+            </ul>
+        </nav>
+     </header>  <!--Navigation Bar Ends-->
+
+<!-- MAIN CONTENT -->
+<main>
+    <section>
+        <div class="container-fluid">
+            <div class="row student-profiles">
+                   <!-- back to designers arrow *need to import bootstrap icon file link-->
+                   <div class="col-lg-1 col-md-2">
+                    <!-- sm screen arrow hide -->
+                    <span class="d-none d-sm-block" >
+                        <a href="../index.html#cc" class="Bnarrow"><i class="bi bi-caret-left-fill" class="text-secondary"></i>BACK TO DESIGNERS</a>
+                    </span>
+                </div>
+                <!-- FIRST COLUMN -->
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="styledimg">
+                        <img class="img-fluid headshot-size headshot" src="../Graphics/headshots/Batcher.png"  width="375px" height="375px">
+                    </div>
+                    <h3 class="name_student text-center">David Batcher</h3>
+                    <p class="major text-center">Web Design & Front End Development</p>
+                    <div class="text-center py-3">
+                        <a href="https://www.linkedin.com/in/david-batcher/" target="_blank"><img class="img-fluid icons" src="../Graphics/icons/linkedin-icon.png"> </a>
+                        <a href="https://drbatcher.myportfolio.com/work" target="_blank"><img class="img-fluid icons" src="../Graphics/icons/website-icon.png"></a>
+                        <a href="https://www.behance.net/davidbatcher" target="_blank"><img class="img-fluid icons" src="../Graphics/icons/behance-icon.png"></a>
+                    </div>
+                    <p class="pbody text-justify">In graphic and web design, I value directness and clarity, 
+                        while also prizing color and a sense of fun. I believe that good design decisions 
+                        are rooted in good ideas. I don't want to make things that merely look handsome. 
+                        I want design elements to have a reason for existing– even if that reason is to give the
+                         eye and the mind a moment of rest or delight. Call it rigor with vigors.</p>
+                </div>
+
+                <!--Lightbox-->
+                <!-- SECOND COLUMN -->
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="row">
+                         <!--First Portfolio Image-->
+                         <a href="../Graphics/sample-student-work/template.jpg" data-toggle="lightbox"
+                         data-gallery="example-gallery" data-title="Quigley Decks & Cable Rail | Website mock-up | Adobe XD"><img class="portfolio-images img-fluid"
+                         src="../Graphics/sample-student-work/template.jpg"
+                         alt="david batcher portfolio image 1"></a> 
+                        
+
+                         <!--Second Portfolio Image-->
+                            <a href="../Graphics/sample-student-work/template.jpg" data-toggle="lightbox"
+                            data-gallery="example-gallery" data-title="Saint Gracie | Art Print | Adobe Photoshop"><img class="portfolio-images img-fluid"
+                            src="../Graphics/sample-student-work/template.jpg"
+                            alt="david batcher portfolio image 2"></a>   
+                    
+
+                         <!--Third Portfolio Image-->
+                            <a href="../Graphics/sample-student-work/template.jpg" data-toggle="lightbox"
+                            data-gallery="example-gallery" data-title="The Catalyst | Podcast cover art | Adobe Illustrator, Adobe Photoshop"><img class="portfolio-images img-fluid"
+                            src="../Graphics/sample-student-work/template.jpg"
+                            alt="david batcher portfolio image 3"></a>    
+                    </div>
+               </div>
+            </div>     
+        </div>
+    </section>
+</main>
+
+<!-- last and next student arrow start-->
+<nav class="row  my-5 ms-5">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-5 align-self-start d-none d-sm-block text-start" >
+        <a href="allen.html"  style="font-family: DIN Condensed; font-size: 1.75rem; color: #6a6a6a;">
+            <i class="bi bi-caret-left-fill" class="text-secondary"></i>Previous Student
+        </a>
+    </div>
+
+    <div class="col-lg-5 align-self-end d-none d-sm-block text-end" >
+        <a href="bergen.html" style="font-family: DIN Condensed; font-size: 1.75rem; color: #6a6a6a;">Next Student
+            <i class="bi bi-caret-right-fill"></i>
+        </a>
+    </div>
+    <div class="col-lg-1"></div>
+</nav>
+<!-- last and next student arrow end-->
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="../js/app.js"></script>
+</script>
+<script src="https://kit.fontawesome.com/fc41f0c70f.js" crossorigin="anonymous"></script>
+<!--Lightbox JS-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+<script>
+ 
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox({
+            alwaysShowClose: true
+        });
+    })
+</script>
+
+
+</body>
+</html>
