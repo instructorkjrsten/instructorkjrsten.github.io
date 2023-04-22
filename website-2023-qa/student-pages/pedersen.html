@@ -16,7 +16,7 @@
 <body>
     <header class="fixed-top"> <!--Navigation Bar-->
         <nav>
-            <a href="../index.html"><img src="../Graphics/logo-nav.png" class="img-fluid w-30"></a>
+            <a href="../index.html"><img src="../Graphics/logo-nav.png" class="img-fluid w-30" alt="logo"></a>
        
             <input type="checkbox" id="check">
             <label for="check">
@@ -49,13 +49,13 @@
                 <!-- FIRST COLUMN -->
                 <div class="col-lg-5 col-md-6">
                     <div class="styledimg">
-                        <img class="img-fluid headshot-size headshot" src="../Graphics/headshots/Pedersen.png" width="375px" height="375px">
+                        <img class="img-fluid headshot-size headshot" src="../Graphics/headshots/Pedersen.png" width="375px" height="375px" alt="headshot">
                     </div>
                     <h3 class="name_student text-center">Chelsea Pedersen</h3>
                     <p class="major text-center">Graphic Design</p>
                     <div class="text-center py-3">
-                        <a href="https://www.linkedin.com/in/chelsea-pedersen-328383155/" target="_blank"><img class="img-fluid icons" src="../Graphics/icons/linkedin-icon.png"> </a>
-                        <a href="https://chelseapedersen.myportfolio.com/work" target="_blank"><img class="img-fluid icons" src="../Graphics/icons/website-icon.png"></a>
+                        <a href="https://www.linkedin.com/in/chelsea-pedersen-328383155/" target="_blank"><img class="img-fluid icons" src="../Graphics/icons/linkedin-icon.png" alt="linkedin icon"> </a>
+                        <a href="https://chelseapedersen.myportfolio.com/work" target="_blank"><img class="img-fluid icons" src="../Graphics/icons/website-icon.png" alt="website icon"></a>
                     </div>
                     <p class="pbody text-justify">
                         Ever since I was a child I have been obsessed with creating and have always been 
@@ -70,23 +70,23 @@
              <div class="col-lg-5 col-md-6 col-sm-12">
                 <div class="row">
                      <!--First Portfolio Image-->
-                        <a href="../Graphics/sample-student-work/template.jpg" data-toggle="lightbox"
-                        data-gallery="example-gallery" data-title="Halls Product Redesign | Pharmaceutical Product Redesign | Adobe Illustrator"><img class="portfolio-images img-fluid"
-                        src="../Graphics/sample-student-work/template.jpg"
+                        <a href="../Graphics/portfolio-images/pedersen-portfolio-1.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery" data-footer="Halls Product Redesign | Pharmaceutical Product Redesign | Adobe Illustrator"><img class="portfolio-images img-fluid top"
+                        src="../Graphics/portfolio-images/pedersen-portfolio-1.jpg"
                         alt="portfolio image 1"></a>   
                     
 
                      <!--Second Portfolio Image-->
-                        <a href="../Graphics/sample-student-work/template.jpg" data-toggle="lightbox"
-                        data-gallery="example-gallery" data-title="Bone Dry Magazine Design | Magazine Page Design | Adobe Illustrator"><img class="portfolio-images img-fluid"
-                        src="../Graphics/sample-student-work/template.jpg"
+                        <a href="../Graphics/portfolio-images/pedersen-portfolio-2.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery" data-footer="Bone Dry Magazine Design | Magazine Page Design | Adobe Illustrator"><img class="portfolio-images img-fluid"
+                        src="../Graphics/portfolio-images/pedersen-portfolio-2.jpg"
                         alt="portfolio image 2"></a>   
                 
 
                      <!--Third Portfolio Image-->
-                        <a href="../Graphics/sample-student-work/template.jpg" data-toggle="lightbox"
-                        data-gallery="example-gallery" data-title="Personal Branding Buisness Cards | Buisness Card Design | Adobe Illustrator"><img class="portfolio-images img-fluid"
-                        src="../Graphics/sample-student-work/template.jpg"
+                        <a href="../Graphics/portfolio-images/pedersen-portfolio-3.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery" data-footer="Personal Branding Buisness Cards | Buisness Card Design | Adobe Illustrator"><img class="portfolio-images img-fluid"
+                        src="../Graphics/portfolio-images/pedersen-portfolio-3.jpg"
                         alt="portfolio image 3"></a>
                     </div>    
                 </div>  
@@ -112,7 +112,43 @@
     <div class="col-lg-1"></div>
 </nav>
 <!-- last and next student arrow end-->
-
+ <!--Footer-->
+ <footer class="page-footer shadow d-flex flex-column-reverse flex-sm-row justify-content-center justify-content-sm-between align-items-center">
+    <div>
+      <ul class="footer">
+          <img class="brand-logo img-fluid col-md" src="../Graphics/logo-nav.png">
+        </ul>
+        <a target="_blank" href="https://minneapolis.edu/" id="footer-link" class="m-5 blk">© Minneapolis College 2023</a>  
+    </div>
+  
+    <div class="col-xs-3">
+      <div class="m-4">
+        <p><span style="color: #000000">PREVIOUS PORTFOLIO SHOWS</span></p>
+      </div>
+      <ul id="dates" class="justify-content-center">
+       <li class="m-3">
+              <a target="_blank" href="http://2022.mplscollegedesignshow.com/index.html"  class="pb-3 pb-sm-0 blk">2022</a>  
+       </li>
+        <li class="m-2">
+          <a target="_blank" href="http://2021.mplscollegedesignshow.com"  class="pb-3 pb-sm-0 blk">2021</a>  
+        </li>
+        <li class="m-3">
+          <a target="_blank" href="http://2020.mplscollegedesignshow.com"  class="pb-3 pb-sm-0 blk">2020</a>  
+        </li>
+        <li class="m-3">
+          <a target="_blank" href="http://2019.mplscollegedesignshow.com" class="pb-3 pb-sm-0 blk">2019</a>  
+        </li>
+      </ul>
+    </div>
+  
+  <div>
+    <li class="icons" ><img class="mpls-logo img-fluid col-md" src="../Graphics/mplslogo.png">
+    </li> 
+  
+  </div>
+  
+  </footer>
+<!--Footer Ends-->
 <!-- Jquery needed -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="../js/app.js"></script>
@@ -134,6 +170,5 @@
         });
     })
 </script>
-
 </body>
 </html>

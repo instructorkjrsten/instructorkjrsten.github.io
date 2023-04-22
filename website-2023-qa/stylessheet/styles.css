@@ -303,6 +303,7 @@ section{
 .Dnames {
     font-family: DIN Condensed; 
     font-size: 1.6rem;
+    color:#000000;
   }
 
 
@@ -505,6 +506,7 @@ page-footer{
     margin-right: 10px;
     align-items: center;
     margin-top: -30px;
+    
 }
 
 .shadow {
