@@ -4,16 +4,19 @@
     padding: 0;
     box-sizing: border-box;
     
-
 }
+
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    
 }
 
 body{
     background-color: white;
     min-height: 100vh;
-
+    overflow-x: hidden;
+    
 
 }
 
@@ -27,28 +30,6 @@ header{
     font-weight: 500;
     font-style: normal;
 }
-
-
-/*.logo {
-     width: 20%; 
-    max-width: 173px;
-
-}
-
-.navigation{
-    display: flex;
-    align-items: center;
-}
-
-header ul{
-    position: relative;
-    display: flex;
-    gap: 30px;
-}
-
-header ul li{
-    list-style: none;
-} */
 
 header ul li a{
     position: relative;
@@ -87,7 +68,7 @@ header ul li a:hover::before{
 }
 
 nav img{
-    width: 200px;
+    width: 150px;
     position: absolute;
     top: 30px;
     left: 12%;
@@ -160,13 +141,9 @@ label #cancel{
   
 }
 
-/* THIS CLASS IS FOR THE MARGIN ABOVE FIRST PORTFOLIO IMAGE */
-.top {
-    margin-top: 30px;
-}
-/*END MARGIN ABOVE FIRST PORTFOLIO IMAGE */
 
-/* css for colorful blob */
+
+/* ----------- css for colorful blob ------------------ */
 
 .styledimg {
     background-image: url(../Graphics/colorful-blob.png);
@@ -187,20 +164,113 @@ a {
     
 }
 
-/* end css for colorful blob */
+/* ----------- end css for colorful blob ------------- */
 
 
 
-/*Info Student and Portfolio images starts*/
+/* -------------- Info Student and Portfolio images starts -------------- */
 ul{
     list-style-type: none;
 }
+
+/*
 .portfolio-images {
     border-radius: 25px;
     width: 100%;
     height: auto;
     margin-bottom: 1rem;
-}
+  }
+  */
+  
+  @media only screen and (max-width: 576px) {
+    /* extra small screens */
+    .img-too-big {
+        border-radius: 25px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* small screens */
+     .img-too-big {
+        border-radius: 25px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+    /* medium screens */
+    .portfolio-bkgrnd {
+      margin: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #E5E4E2;
+      width: 90vw;
+      height: 20rem;
+      border-radius: 2rem;
+      overflow: hidden;
+    }
+    .img-too-big {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+  }
+  
+  @media only screen and (min-width: 992px) {
+    /* large screens */
+    .portfolio-bkgrnd {
+      margin: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #E5E4E2;
+      width: 90vw;
+      height: 20rem;
+      border-radius: 2rem;
+      overflow: hidden;
+    }
+    .img-too-big {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .student-profiles {
+        justify-content: center;
+      }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    /* extra-large screens */
+    .portfolio-bkgrnd {
+      margin: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #E5E4E2;
+      width: 90vw;
+      height: 20rem;
+      border-radius: 2rem;
+      overflow: hidden;
+    }
+    .img-too-big {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  }
+  
+  
+
 
 .pbody{
     font-family: "objektiv-mk2", sans-serif;
@@ -213,7 +283,7 @@ ul{
 .child-margin:first-child {
     margin-top: 4rem;
 }
-/*Info Student and Portfolio images ends*/
+/* -------------- Info Student and Portfolio images ends -------------- */
 
 
 @media (max-width: 1118px){
@@ -233,6 +303,8 @@ ul{
     .nav-group li a{
         font-size: 14px;
     }
+
+    
 }
 
 @media (max-width: 860px){
@@ -245,7 +317,7 @@ ul{
         width: 100%;
         height: 100vh;
         background-color: #fff;
-        top: 100px;
+        top: 120px;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -320,8 +392,6 @@ ul{
 /*Navbar Styles ends*/
 
 /* CSS FOR STUDENT PROFILE PAGES */
- 
-
 
 .headshot-button {
     padding-top: 170px;
@@ -379,21 +449,13 @@ a {
 ul{
     list-style-type: none;
 }
-.portfolio-images {
-    border-radius: 25px;
-    width: 100%;
-    height: auto;
-    margin-top: 1.5rem;
-}
-/* THIS CLASS IS FOR THE MARGIN ABOVE FIRST PORTFOLIO IMAGE */
+/* -------------- THIS CLASS IS FOR THE MARGIN ABOVE FIRST PORTFOLIO IMAGE */
 .top {
-    margin-top: 3.5rem;
+    margin-top: 1.2rem;
 }
-/*END MARGIN ABOVE FIRST IMAGE */
+/* -------------- END MARGIN ABOVE FIRST IMAGE ------------------ */
 
-.portfolio-img-padding {
-    margin-bottom: 30px;
-}
+
 
 .name_student{
     font-family: "din-condensed", sans-serif;
@@ -438,10 +500,11 @@ ul{
   
 /* back to designers section arrows */
   .Bnarrow {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     font-family: DIN Condensed; 
     font-size: 2rem; 
-    line-height: 2rem;
+    /* line-height: 2rem; */
     color: #6a6a6a;
     margin-top: 4rem;
     white-space: nowrap;
@@ -451,7 +514,18 @@ ul{
     padding: 4px 16px;
     border-radius: 5px;
     vertical-align: middle;
+    z-index: 9999;
   }
+
+
+/* students page bottom last and next page arrows */
+#pageButton{
+    font-family: DIN Condensed;
+    font-size: 1.5rem;
+    /* font-weight: 300; */
+    color: #6a6a6a;
+    vertical-align: middle;
+}
 
 
 
