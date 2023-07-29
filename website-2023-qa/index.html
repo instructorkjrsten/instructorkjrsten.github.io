@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MPLS DSGN SHOW</title>
+  <link rel="icon" type="image/x-icon" href="./Graphics/fav-icon.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="./stylessheet/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/slz2kvr.css">
@@ -12,11 +13,12 @@
 
 </head>
 
-  <body class="bg-white"   id="noodle-background">
-     <header class="fixed-top"> <!--Navigation Bar-->
+<body class="bg-white">
+<div class="wrap">
+    <header class="fixed-top"> <!--Navigation Bar-->
         <nav>
-            <img src="./Graphics/logo-nav.png" class="img-fluid w-30">
-       
+            <a href ="./index.html"><img src="./Graphics/logo-nav.png" class="img-fluid w-30" alt="logo"></a>
+
             <input type="checkbox" id="check">
             <label for="check">
                 <i class="fa-solid fa-bars fa-lg" style="color: #000000;" id="btn"></i>
@@ -28,42 +30,45 @@
                 <li ><a href="index.html#aa" >Home</a></li>
                 <li><a href="index.html#bb" >Show Info</a></li>
                 <li><a href="index.html#cc">Designers</a></li>
-                <li><a href="https://www.instagram.com/mplscollegedesignshow/"><i class="icon fa-brands fa-instagram fa-lg" style="color: #000000;"></i></a></li>
+                <li><a href="https://www.instagram.com/mplscollegedesignshow/" target="_blank"><i class="icon fa-brands fa-instagram fa-lg" style="color: #000000;"></i></a></li>
             </ul>
         </nav>
-     </header>  <!--Navigation Bar Ends-->
+    </header>  <!--Navigation Bar Ends-->
 
     <!--Initial Content Logo-->
-<main id="aa">
-    <!-- id="sec1"   old background images position move to body tag -->
-  <section id="sec1" >   
-    <div class="container noodles noodles1">
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <img src="./Graphics/centered-logo.png" class="centered-logo img-fluid">
-        </div>
-      </div>
-    </div>
-    
-    <div>
-      <a href="https://mplscollegedesignshow.com/index.html#designers"></a>
-    </div>
 
-    <a href="#sec2">
-      <div class="scrolldown"></div>
-    </a>
+    <main id="aa">
+            <!-- id="sec1"   old background images position move to body tag -->
+        <section id="sec1 noodles1" >   
+            <div class="container noodles noodles1">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                <img src="./Graphics/centered-logo-2.png" class="centered-logo img-fluid" alt="logo">
+                </div>
+            </div>
+            </div>
+            
+            <div>
+            <a href="https://mplscollegedesignshow.com/index.html#designers"></a>
+            </div>
+         <a href="#sec2">
+            <div class="scrolldown" py-5></div>
+            </a>
+</main>
+
 
   </section>
-</main>
+
+
 <!--Initial Content Logo Ends-->
 <div id="sec2"></div>
 <!--Intro Text starts-->
     <!-- id bb use to navbar jump to here -->
-  <div class="container px-5  pt-5 intro-alignment" id="bb">
+  <div class="container px-5  pt-5 intro-alignment text-color" id="bb">
       <h1 class="text-uppercase theshow text-center p-5">
           the show
         </h1>
-        <h2 class="intro-text "> 
+        <h2 class="intro-text"> 
             Welcome to the Minneapolis College Class of 2023 Graphic Design and Web Design programs’ Virtual Reception! 
         </h2>
         <p class="Pbody">This collection showcases this year’s 42 graduating designers’ portfolios and celebrates 
@@ -73,94 +78,41 @@
         </p> 
         <p class="Pbody">
             Our class is excited to share how much we’ve learned and grown throughout our time at 
-            Minneapolis College and we hope you enjoy the various creative approaches and styles presented in this exhibition.  
+            Minneapolis College and we hope you enjoy the various creative approaches and styles presented in this exhibition.
         </p>
-        <h5 class="h5-body">
-            Please join us for our virtual reception May 2nd at 6 p.m. and again on 
-            May 3rd at 1 p.m. 
-            <br>During the Q & A section of the presentation, you will be able to meet 
-            the talented designers and dive deeper into their work. 
-        </h5>  
+        <div class="h5-body">
+            <h3 class="py-3">Live Presentations:</h3>
+            <p class="Pbody">Watch and listen to presentations by every graduate! <a href="student-pages/videos.html" style="text-decoration: underline;">View the recordings</a> of the Opening Receptions which took place on May 2nd and 3rd, 2023.</p>
+        </div>
         <p class="Pbody">
-            Scroll down to meet the talented designers. 
+            Scroll down to meet the talented designers.
         </p>
         
     <!--Body Class is Pbody-->
   </div>
 
-
+</div>
 <!--Intro Text ends-->
-
+</div>
 <!--Designer Section-->
-<!-- han-4-4-replaceTheDesignersPhoto-->
-<!--
-<section id="designers">
-  <div class="container">
-  -->
-      <!-- designer title -->
-      <!--
-      <div class="row">
-          <div class="col-lg-12 text-center text-uppercase">
-              <h1 class="header-text p-5">The Designers</h1>
-               <hr class="star-primary"> -->
-          <!-- </div>
-      </div>
-    -->
-      
-          <!--designer photo grid -->
-       <!--
-          <div class="container">
-          -->
-          <!-- designer row 1 -->
-          <!-- 
-            <div class="row">
-              <div class="col text-center text-uppercase designerImg">
-                  <a href="./student-pages/allen.html"><img src="./designerRoundImages/designerRoundExample.png" alt="Designers" class="img-fluid">
-                    <img src="./designerRoundImages/designerExample-bgc.png" alt="#" class="img-fluid designerBgc">
-                    <h5>BREANNA AAAAA</h5>
-                    <p>Profession</p></a>
-              </div>
 
-              <div class="col text-center text-uppercase designerImg">
-                <a href="#"><img src="./designerRoundImages/designerRoundExample.png" alt="Designers" class="img-fluid">
-                  <img src="./designerRoundImages/designerExample-bgc.png" alt="#" class="img-fluid designerBgc">
-                  <h5>BREANNA ALLEN</h5>
-                  <p>Profession</p></a>
-            </div>
-
-            <div class="col text-center text-uppercase designerImg">
-              <a href="#"><img src="./designerRoundImages/designerRoundExample.png" alt="Designers" class="img-fluid">
-                <img src="./designerRoundImages/designerExample-bgc.png" alt="#" class="img-fluid designerBgc">
-                <h5>BREANNA ALLEN</h5>
-                <p>Profession</p></a>
-          </div>
-
-          <div class="col text-center text-uppercase designerImg">
-            <a href="#"><img src="./designerRoundImages/designerRoundExample.png" alt="Designers" class="img-fluid">
-              <img src="./designerRoundImages/designerExample-bgc.png" alt="#" class="img-fluid designerBgc">
-              <h5>BREANNA ALLEN</h5>
-              <p>Profession</p></a>
-        </div>
-    -->
-
-
-    <!--Designer Section start & title start-->
-            
-    <div class="container-fluid mt-5">
-       <!-- Designer Title start-->
-    <div class="row col" id="cc">
-        <div class="col-lg-12 text-center text-uppercase">
-            <h1 class="header-text p-5 my-5">The Designers</h1>
-        </div>
-
+<!--Designer Section start & title start-->
+        
+<div class="container-fluid mt-5">
+<!-- Designer Title start-->
+<div class="row col" id="cc">
+    <div class="col-lg-12 text-center text-uppercase">
+        <h1 class="header-text p-5 my-5">The Designers</h1>
     </div>
-      </div>
+</div>
+
+</div>
 
 
     <!-- old layout -->
 <main class="container-fluid m-auto pt-5 bgcImg" id="cc designersSection designersnoodlebgc" >
 
-    <div class="container-fluid">
+    <div class="container-fluid  ">
 
         <!-- The 1st row of 1-5 designers -->
         <div class="row justify-content-around">
@@ -170,11 +122,11 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/allen.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Allen.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Allen.png" alt="headshot">
                 <!-- let name in 1 row -->
                
                     <h5 class="text-center text-uppercase mt-4 Dnames">Breanna Allen</h5>
-                    <p class="text-center text-capitalize major">Graphic Design</p>
+                    <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 
                 </a>
             </div>
@@ -185,11 +137,11 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/batcher.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Batcher.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Batcher.png" alt="headshot">
                     <!-- let name in 1 row -->
         
                 <h5 class="text-center text-uppercase mt-4 Dnames">David Batcher</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
             
                
                 </a>
@@ -197,40 +149,35 @@
             
             <!-- designer 3-->
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
-                <a href="student-pages/bergen.html">
+                <a href="student-pages/bergren.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Bergen.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Bergren.png" alt="headshot">
                     <!-- let name in 1 row -->
                 <h5 class="text-center text-uppercase mt-4 Dnames">Chris Bergren</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 4-->
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
-                <a href="student-pages/cardosa-meza.html">
+                <a href="student-pages/cabral.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Cardosa-Meza.png">
-                    <!-- let name in 1 row -->
-            
-                <h5 class="text-center text-uppercase mt-4 Dnames">Elizabeth Cardoso Meza</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
-            
-                
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/De-Alencar-Cabral.png" alt="headshot">
+                <h5 class="text-center text-uppercase mt-4 Dnames">Paulo Cabral</h5>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
             
+            
             <!-- designer 5-->
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
-                <a href="student-pages/christensen.html">
+                <a href="student-pages/cardosa-meza.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Christensen.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Cardosa-Meza.png" alt="headshot">
                     <!-- let name in 1 row -->
-           
-                <h5 class="text-center text-uppercase mt-4 Dnames">Katlyn Christensen</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
             
-                
+                <h5 class="text-center text-uppercase mt-4 Dnames">Elizabeth Cardoso Meza</h5>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
 
@@ -239,22 +186,26 @@
         <!-- The 2nd row of 5-10 designers -->
         <div class="row justify-content-around">
             <!-- designer 6-->
-            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
-                <a href="student-pages/crohn.html">
+           <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
+                <a href="student-pages/christensen.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Croh.png">
-                <h5 class="text-center text-uppercase mt-4 Dnames">Jasmine Crohn</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Christensen.png" alt="headshot">
+                    <!-- let name in 1 row -->
+           
+                <h5 class="text-center text-uppercase mt-4 Dnames">Katlyn Christensen</h5>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
+            
+                
                 </a>
             </div>
             
             <!-- designer 7-->
-            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
-                <a href="student-pages/cabral.html">
+             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
+                <a href="student-pages/crohn.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/De-Alencar-Cabral.png">
-                <h5 class="text-center text-uppercase mt-4 Dnames">Paulo Cabral</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Croh.png" alt="headshot">
+                <h5 class="text-center text-uppercase mt-4 Dnames">Jasmine Crohn</h5>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
@@ -262,9 +213,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/divine.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Divine.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Divine.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Jahsun Divine</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
@@ -272,9 +223,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/dopp.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Dopp.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Dopp.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">D'Arah Dopp</h5>
-                <p class="text-center text-capitalize major">GRPH & WEBI</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
@@ -282,9 +233,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/dotson.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Dotson.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Dotson.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Laura Dotson</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
         </div>
@@ -295,9 +246,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/doyle.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Doyle.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Doyle.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Connor Doyle</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
@@ -305,9 +256,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/dudding.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Dudding.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Dudding.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-3 Dnames">Kassie Dudding</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
             
@@ -315,9 +266,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/elbosity.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/elbosity.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/elbosity.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Sara Elbosity</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
@@ -325,9 +276,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/ford.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Ford.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Ford.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Chambray Ford</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
             
@@ -335,9 +286,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/franklin.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Franklin.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Franklin.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Carvez Franklin</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
         </div>
@@ -348,29 +299,29 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/grimm.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2   " src="./Graphics/headshots/Round-images/grimm.png">
+                    <img class="img-fluid headshot-size headshot px-2   " src="./Graphics/headshots/Round-images/grimm.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Kobe Grimm</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
             
             <!-- designer 17-->
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
-                <a href="student-pages/hotung.html">
+                <a href="student-pages/han.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Hotung.png">
-                <h5 class="text-center text-uppercase mt-4 Dnames">Sai Hotung</h5>
-                <p class="text-center text-capitalize major">GRPH & WEBI</p>
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Han.png" alt="headshot">
+                <h5 class="text-center text-uppercase mt-4 Dnames">Han Junwei</h5>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
             
             <!-- designer 18-->
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
-                <a href="student-pages/han.html">
+                <a href="student-pages/hotung.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Han.png">
-                <h5 class="text-center text-uppercase mt-4 Dnames">Han Junwei</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Hotung.png" alt="headshot">
+                <h5 class="text-center text-uppercase mt-4 Dnames">Sai Hotung</h5>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
@@ -378,9 +329,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/hunter.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Hunter.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Hunter.png" alt="headshot"> 
                 <h5 class="text-center text-uppercase mt-4 Dnames">Griffin Hunter</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
@@ -388,9 +339,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/jackson.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Jackson.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Jackson.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Brianna Jackson</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
         </div>
@@ -401,9 +352,9 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/lieberman.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Lieberman.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Lieberman.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Sarah Lieberman</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
             
@@ -411,39 +362,39 @@
             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/luben.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Luben.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Luben.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Romina Lubben</h5>
-                <p class="text-center text-capitalize  major">Graphic Design</p>
+                <p class="text-center text-capitalize  major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 23-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/martinez.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Martinez.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Martinez.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-3 Dnames">Alejandro Martinez</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
 
             <!-- designer 24-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/massie.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/massie.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/massie.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-3 Dnames">Jalen Massie</h5>
-                <p class="text-center text-capitalize  major">Graphic Design</p>
+                <p class="text-center text-capitalize  major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 25-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/mergens.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Mergens.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Mergens.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Megan Mergens</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
         </div> 
@@ -451,52 +402,52 @@
         <!-- The 6th row of 26-30 designers -->
         <div class="row justify-content-around">
             <!-- designer 26-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/mingo.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/mingo.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/mingo.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-3 Dnames">Henri Mingo</h5>
-                <p class="text-center text-capitalize major">GRPH & WEBI</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
 
             <!-- designer 27-->
-            <div class="col-lg-2 col-md-6 col-sm-10 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/miskowski.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/miskowski.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/miskowski.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Amanda Miskowski</h5>
-                <p class="text-center text-capitalize major">GRPH & WEBI</p>
+                <p class="text-center text-capitalize major link-dark">Graphic &amp; Web Design</p>
                 </a>
             </div>
             
             <!-- designer 28-->
-            <div class="col-lg-2 col-md-6 col-sm-10 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/mosier.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Mosier.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Mosier.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Carrie Mosier</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 29-->
-            <div class="col-lg-2 col-md-6 col-sm-10 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/pearson.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Pearson.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Pearson.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Gabbie Pearson</h5>
-                <p class="text-center text-capitalize major">GRPH & WEBI</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 30-->
-            <div class="col-lg-2 col-md-6 col-sm-10 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/pedersen.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Pedersen.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Pedersen.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Chelsea Pedersen</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
         </div>
@@ -504,52 +455,52 @@
         <!-- The 7th row of 31-35 designers -->
         <div class="row justify-content-around">
             <!-- designer 31-->
-            <div class="col-lg-2 col-md-6 col-sm-10 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/petty.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Petty.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Petty.png" alt="headshot" >
                 <h5 class="text-center text-uppercase mt-3 Dnames">Dennis Petty</h5>
-                <p class="text-center text-capitalize major">GRPH & WEBI</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
 
             <!-- designer 32-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/reep.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Reep.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Reep.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Aaron Reep</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 33-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/julius.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Reilly Julius.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Julius.png" alt="headshot">
                 <h6 class="text-center text-uppercase mt-4 Dnames">Reilly Julius</h6>
-                <p class="text-center text-capitalize major">GRPH & WEBI</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 34-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/reith.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Reith.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Reith.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Demian Reith</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 35-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/richard.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Richard.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Richard.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Tzvi Richard</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
             
@@ -558,52 +509,52 @@
         <!-- The 7th row of 36-40 designers -->
         <div class="row justify-content-around">
             <!-- designer 36-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/sadovski.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Sadovski.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Sadovski.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-3 Dnames">Susanna Sadovski</h5>
-                <p class="text-center text-capitalize major Desiger-info">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
 
             <!-- designer 37-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/simbi.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Simbi.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Simbi.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-3 Dnames">Antoinette Simbi</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
             
             <!-- designer 38-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/swenson.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Swenson.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Swenson.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Sara Swenson</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 39-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/tlaseca.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Tlaseca.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Tlaseca.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Jesus Genis Tlaseca</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             
             <!-- designer 40-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/tremelat.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/tremelat.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/tremelat.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-4 Dnames">Valerie Tremelat</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
         </div>
@@ -613,29 +564,29 @@
         <div class="row justify-content-center mt-3">
         
              <!-- designer 41-->
-             <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+             <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/van-deusen.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Van-Deusen.png">
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Van-Deusen.png" alt="headshot">
                 <h5 class="text-center text-uppercase mt-3 Dnames">Kristina Van Deusen</h5>
-                <p class="text-center text-capitalize major">Web Design & Development</p>
+                <p class="text-center text-capitalize major link-dark">Web Design</p>
                 </a>
             </div>
 
             <!-- designer 42-->
-            <div class="col-lg-2 col-md-6 col-sm-12 designerContainer mt-3">
+            <div class="col-lg-2 col-md-6 col-sm-6 designerContainer mt-3">
                 <a href="student-pages/yang.html">
                     <div class="designerBackColor"></div>
-                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Yang.png">
-                <h5 class="text-center text-uppercase mt-4 Dnames">Pang Yang</h5>
-                <p class="text-center text-capitalize major">Graphic Design</p>
+                    <img class="img-fluid headshot-size headshot px-2" src="./Graphics/headshots/Round-images/Yang.png" alt="headshot">
+                <h5 class="text-center text-uppercase mt-4 Dnames">Scarlett Yang</h5>
+                <p class="text-center text-capitalize major link-dark">Graphic Design</p>
                 </a>
             </div>
             <!-- designer 42-->
             
         </div>
     </div> 
-</section>
+
 <!--Designer Section Ends-->
 
 
@@ -644,11 +595,11 @@
 
 <!--Footer-->
 
-<footer class="text-dark text-center text-md-left">
+<footer class="text-dark text-center text-md-left shadow-lg">
 	<div class="container">
 		<div class="row pt-4">
 			<div class="col-sm-6 col-md-3 pb-4">
-				<img src="./Graphics/centered-logo.png" class="img-fluid footer-logo">
+				<img src="./Graphics/centered-logo.png" class="img-fluid footer-logo" alt="logo">
 			</div>
              
             <div class="col-md-6 pb-4 text-footer">
@@ -658,7 +609,7 @@
 				<div class="col d-flex justify-content-center mb-4">
                     <a href="http://2022.mplscollegedesignshow.com/index.html" target="_blank" class="d-block px-3">2022</a>
                     
-                    <a href="http://2021.mplscollegedesignshow.com" taget="_blank" class="d-block px-3">2021</a>
+                    <a href="http://2021.mplscollegedesignshow.com" target="_blank" class="d-block px-3">2021</a>
                     
                     <a href="http://2020.mplscollegedesignshow.com" class="d-block px-3" target="_blank">2020 </a>
                     
@@ -667,7 +618,7 @@
 			</div>
 
 			<div class="col-sm-6 col-md-3 pb-4 my-3">
-				<a href="https://minneapolis.edu/" target="_blank"><img src="./Graphics/mplslogo.png" class="img-fluid mpls-logo"></a>
+				<a href="https://minneapolis.edu/" target="_blank"><img src="./Graphics/mplslogo.png" class="img-fluid mpls-logo" alt="logo"></a>
 			</div>
 		</div>
 		
